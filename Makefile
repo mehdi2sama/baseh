@@ -12,6 +12,6 @@ uninstall:
 reinstall: uninstall install
 
 clean:
-	dune clean
+	dune cleanninstall $(INSTALL_ARGS
 
 .PHONY: default install uninstall reinstall clean
